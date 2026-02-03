@@ -1,29 +1,25 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: OpenInvoice Documentation
+  description: Complete guide for OpenInvoice - A modern invoice management system. User guides, developer documentation, and API references.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+OpenInvoice Documentation
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Complete guides for using and developing with OpenInvoice. Learn how to manage invoices, customers, payments, and more.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /getting-started/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Get Started
   :::
 
   :::u-button
@@ -31,93 +27,135 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/usaikoo/openinvoice
   variant: outline
   ---
-  Star on GitHub
+  View on GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Documentation Sections
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-book-open
+  to: /getting-started/introduction
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  [Getting Started]{.text-primary}
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  New to OpenInvoice? Start here to learn the basics, set up your account, and create your first invoice.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-users
+  to: /user-guide/invoices/creating-invoices
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  [User Guide]{.text-primary}
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Comprehensive guides for end users covering invoices, customers, products, payments, and all features.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-code
+  to: /developer-guide/setup/installation
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  [Developer Guide]{.text-primary}
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Technical documentation for developers including setup, architecture, integrations, and deployment.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-wrench
+  to: /troubleshooting/common-issues
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  [Troubleshooting]{.text-primary}
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Solutions to common issues, payment problems, email delivery issues, and frequently asked questions.
+  :::
+::
+
+::u-page-section
+#title
+Key Features
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-file-text
+  ---
+  #title
+  Invoice Management
+  
+  #description
+  Create, edit, and manage invoices with a beautiful interface. Track status, generate PDFs, and share invoices securely.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-repeat
   ---
   #title
-  Edit in production with [Nuxt Studio]{.text-primary}
+  Recurring Invoices
   
   #description
-  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Set up recurring invoices and subscriptions with flexible scheduling. Automated generation and email sending.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-credit-card
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Payment Processing
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Accept payments via Stripe Connect, crypto (XRP), and more. Support for payment plans, installments, and partial payments.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-mail
+  ---
+  #title
+  Email Management
+  
+  #description
+  Send invoices via email with tracking and engagement metrics. Professional HTML templates and delivery status.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-bar-chart
+  ---
+  #title
+  Analytics & Reports
+  
+  #description
+  Visual insights into your invoicing with charts, statistics, forecasting, and customer lifetime value analysis.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-palette
+  ---
+  #title
+  Branding & Templates
+  
+  #description
+  Customize company branding (logo, colors, fonts) and create multiple invoice templates with custom layouts.
   :::
 ::
