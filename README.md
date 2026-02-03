@@ -1,24 +1,23 @@
-# Docus Default Starter
+# OpenInvoice Documentation
 
-> A beautiful, minimal starter for creating documentation with Docus
+> Documentation site for OpenInvoice - A modern invoice management system built with Next.js
 
-This is the default Docus starter template that provides everything you need to build beautiful documentation sites with Markdown and Vue components.
+This is the documentation site for OpenInvoice, built with [Docus](https://docus.dev) and [Nuxt Content](https://content.nuxt.com/). It provides comprehensive guides for both end users and developers.
 
-> [!TIP]
-> If you're looking for i18n support, check out the [i18n starter](https://github.com/nuxt-themes/docus/tree/main/.starters/i18n).
+## 📚 Documentation Sections
 
-## ✨ Features
-
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
+- **Getting Started** - Introduction, installation, and first steps
+- **User Guide** - End-user documentation covering invoices, customers, products, payments, and features
+- **Developer Guide** - Technical documentation including setup, architecture, integrations, and deployment
+- **Troubleshooting** - Solutions to common issues and FAQs
 
 ## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ or Bun
+
+### Development
 
 ```bash
 # Install dependencies
@@ -28,55 +27,51 @@ npm install
 npm run dev
 ```
 
-Your documentation site will be running at `http://localhost:3000`
+The documentation site will be running at `http://localhost:3000`
+
+### Build for Production
+
+```bash
+# Build the documentation site
+npm run build
+```
+
+The built files will be in the `.output` directory, ready for deployment.
 
 ## 📁 Project Structure
 
 ```
-my-docs/
-├── content/              # Your markdown content
-│   ├── index.md         # Homepage
-│   ├── 1.getting-started/  # Getting started section
-│   └── 2.essentials/    # Essential documentation
-├── public/              # Static assets
-└── package.json         # Dependencies and scripts
+documentation/
+├── content/                    # Markdown documentation files
+│   ├── 1.getting-started/     # Getting started guides
+│   ├── 2.user-guide/          # End-user documentation
+│   ├── 3.developer-guide/     # Developer documentation
+│   └── 4.troubleshooting/     # Troubleshooting guides
+├── public/                     # Static assets
+└── package.json                # Dependencies and scripts
 ```
 
-## ⚡ Built with
+## 🔗 Related Links
 
-This starter comes pre-configured with:
+- **Main Project** - [OpenInvoice Repository](https://github.com/usaikoo/openinvoice)
+- **Docus Documentation** - [docus.dev](https://docus.dev)
+
+## 📝 Contributing
+
+To contribute to the documentation:
+
+1. Edit the markdown files in the `content/` directory
+2. Follow the existing structure and naming conventions
+3. Use Docus components and features as documented in the [Docus docs](https://docus.dev)
+
+## ⚡ Built With
 
 - [Nuxt 4](https://nuxt.com) - The web framework
 - [Nuxt Content](https://content.nuxt.com/) - File-based CMS
 - [Nuxt UI](https://ui.nuxt.com) - UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
 - [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
-
-## 📖 Documentation
-
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
-
-### 🤖 AI Assistant Skill
-
-Get started quickly with Docus by adding specialized knowledge to your AI assistant (Cursor, Claude, etc.):
-
-```bash
-npx skills add nuxt-content/docus
-```
-
-This skill helps you create documentation faster by providing your AI assistant with best practices, MDC component usage, ready-to-use templates, writing guidelines, and configuration tips for Docus. Perfect for quickly scaffolding new documentation projects.
-
-## 🚀 Deployment
-
-Build for production:
-
-```bash
-npm run build
-```
-
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
+- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
 
 ## 📄 License
 
-[MIT License](https://opensource.org/licenses/MIT) # documentation
+[MIT License](https://opensource.org/licenses/MIT)
